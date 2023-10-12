@@ -5,6 +5,13 @@
 
 # The input array will always be valid! (odd-length >= 3)
 
-def stray(arr):
-     
+def Stray(arr):
+    print(arr.sorted())
+    a = arr[0]
+    b = arr[1]
+    c = arr[-1]
+    if(a == b):
+        return c
+    else:
+        return a
     pass
